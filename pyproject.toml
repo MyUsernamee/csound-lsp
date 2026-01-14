@@ -1,0 +1,12 @@
+[project]
+name = "csound-lsp"
+version = "0.1.0"
+description = "A super simple language server made with pygls for csound."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pygls>=2.0.0"
+]
+
+[project.scripts]
+csound-lsp = "csound_lsp.cli:cli"
