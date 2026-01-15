@@ -6,7 +6,7 @@ from lsprotocol import types
 from pygls.cli import start_server
 from pygls.lsp.server import LanguageServer
 
-server = LanguageServer("csound-lsp", "v1")
+server = LanguageServer("csound-lsp", "0.1.0")
 
 @server.feature(
     types.TEXT_DOCUMENT_DOCUMENT_COLOR,
