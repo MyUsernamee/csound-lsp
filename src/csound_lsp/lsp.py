@@ -6,7 +6,6 @@ from lsprotocol import types
 from pygls.cli import start_server
 from pygls.lsp.server import LanguageServer
 
-COLOR = re.compile(r"""\#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})(?!\w)""")
 server = LanguageServer("csound-lsp", "v1")
 
 @server.feature(

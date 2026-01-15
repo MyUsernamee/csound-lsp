@@ -10,3 +10,4 @@ dependencies = [
 
 [project.scripts]
 csound-lsp = "csound_lsp.cli:cli"
+csound-parser = "csound_lsp.parser:cli"
