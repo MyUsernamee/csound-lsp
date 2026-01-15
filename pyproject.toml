@@ -5,7 +5,8 @@ description = "A super simple language server made with pygls for csound."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "pygls>=2.0.0"
+    "pygls>=2.0.0",
+    'tree-sitter-csound-orc @ file:///${PROJECT_ROOT}/tree-sitter-csound-orc'
 ]
 
 [project.scripts]
