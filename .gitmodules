@@ -1,0 +1,3 @@
+[submodule "tree-sitter-csound-orc"]
+	path = tree-sitter-csound-orc
+	url = https://github.com/MyUsernamee/tree-sitter-csound-orc.git
